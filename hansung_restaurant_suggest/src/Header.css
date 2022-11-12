@@ -1,0 +1,46 @@
+.HeaderBar {
+    font-weight: 1000;
+    position: fixed;
+    color: #00A4F9;
+    background-color: white;
+    height: 2.5cm;
+    width: 100%;
+}
+
+.HeaderTitle {
+    color: white;
+}
+
+.Logo {
+    margin-left: -20px;
+    margin-right: 130px;
+    height: 130px;
+    width: 220px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li:first-child {
+    border-left: none;
+}
+
+li:last-child {
+    border-right: 1px solid #c0c0c0;
+}
+
+.station {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    padding: 40px;
+    border : 0;
+    float: left;
+    border-left: 1px solid #c0c0c0;
+    line-height: 1px;
+}
