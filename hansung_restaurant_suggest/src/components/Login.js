@@ -118,6 +118,7 @@ const Login = () => {
         <Link to={"/mypage/"+loginId+"/"+loginPassword}>
           <button onClick={login}>Login</button>
         </Link>
+        
         </form>
       </div>
     </div>

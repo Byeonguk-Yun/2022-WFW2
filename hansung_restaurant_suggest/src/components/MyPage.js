@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import userList from '../dummy/user.json';
+import Introduction from './introduction';
 
 const MyPage = () => {
     const path = useLocation().pathname;
@@ -27,9 +28,9 @@ const MyPage = () => {
     console.log("Like : " + like);
 
     return(
-        <div style={{ textAlign: "center", margin: 10 }}>
+        <div>
             <div>
-                <h3>마이페이지</h3>
+                <h3 style={{ textAlign: "center", margin: 10 }}>마이페이지</h3>
                 <h5>ID : {id}</h5>
                 <h5>PW : {pw}</h5>
                 <h5>좋아요한 식당 : {like}</h5>
@@ -37,9 +38,14 @@ const MyPage = () => {
                 <Link to={"/login"}>
                     <button>뒤로가기</button>
                 </Link>
+                <Link to={"/introduction/호호식당 대학로"}>
+                    <button>식당소개</button>
+                </Link>
             </div>
         </div>
     );
 }
+
+//<div style={{ textAlign: "center", margin: 10 }}>
 
 export default MyPage;
