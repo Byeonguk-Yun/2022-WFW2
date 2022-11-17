@@ -1,11 +1,26 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Login from './components/Login'
+import MyPage from './components/MyPage'
+import Introduction from './components/introduction';
 
 function App() {
-  return (
-    <div>
-      
-    </div>
+  /*
+  <Routes>
+    <Route path="/" element={<Login />} />
+    <Route path="/login" element={<Login />} />
+    <Route path="/mypage" element={<MyPage />} />
+  </Routes>
+  */
+  return(
+    //<Login/>
+    <Routes>
+    <Route path="/" element={<Introduction />} />
+    <Route path="/login" element={<Login />} />
+    <Route path="/mypage/:id/:pw" element={<MyPage />} />
+  </Routes>
   );
+  
 }
 
 export default App;
