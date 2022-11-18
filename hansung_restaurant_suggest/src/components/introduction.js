@@ -17,7 +17,7 @@ const Introduction = () => {
     //const address = restaurant.list.map = (l.restaurant ==  index[2]) => ())
     var about = null;
     const addr = restaurant.list.map((r) => {
-        //console.log(r.rastaurant);
+        console.log(r.rastaurant);
         if((r.rastaurant) === decodeURI(index[2]))
             return about = r;
         // 오류
