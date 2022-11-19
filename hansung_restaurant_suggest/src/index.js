@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import './Header.css';
+import './components/Header.css';
 import App from './App';
-import HeaderMenu from './Header';
+import HeaderMenu from './components/Header';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
