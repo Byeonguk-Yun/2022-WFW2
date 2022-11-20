@@ -1,0 +1,57 @@
+@import url('http://fonts.googleapis.com/earlyaccess/hanna.css');
+
+.HeaderBar {
+    font-weight: 1000;
+    position: fixed;
+    color: #00A4F9;
+    background-color: white;
+    height: 2.5cm;
+    width: 100%;
+}
+
+.Logo {
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: 130px;
+    height: 130px;
+    width: 220px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li:first-child {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100px;
+    border-left: none;
+}
+
+li:last-child {
+    border-right: 1px solid #c0c0c0;
+}
+
+.burger {
+    margin-left: 10px;
+}
+
+.burger:hover {
+    color: #222f3e ;
+}
+
+.station {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Hanna';
+    padding: 40px;
+    border : 0;
+    float: left;
+    border-left: 1px solid #c0c0c0;
+    line-height: 1px;
+}
