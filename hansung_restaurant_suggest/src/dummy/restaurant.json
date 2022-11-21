@@ -2,12 +2,12 @@
     "list" : [
         {
             "rastaurant" : "홍추곱창카페",
-            "rImg" : "홍추곱창카페.jpeg",
+            "rImg" : "/image/rImg/홍추곱창카페.jpeg",
             "address" : "서울 성북구 삼선교로10길 16 1층",
             "menu" : {
                 "name" : ["야채곱창", "치즈불곱창", "치즈불막창", "소금막창"],
                 "price" : ["10000원", "13000원", "17000원", "14000원"],
-                "img" : ["야채곱창.jpeg", "치즈불곱창.jpeg", "치즈불막창.jpeg", "소금막창.jpeg"]
+                "img" : ["/image/mImg/야채곱창.jpeg", "/image/mImg/치즈불곱창.jpeg", "/image/mImg/치즈불막창.jpeg", "/image/mImg/소금막창.jpeg"]
             },
             "openTime" : "12:00",
             "closeTime" : "24:00",
@@ -26,12 +26,12 @@
         },
         {
             "rastaurant" : "밥짓고티우림",
-            "rImg" : "밥짓고티우림.jpeg",
+            "rImg" : "/image/rImg/밥짓고티우림.jpeg",
             "address" : "서울 성북구 성북로2길 15",
             "menu" : {
                 "name" : ["보쌈 한 상", "연잎밥과 장아찌", "황태 한상", "닭안심 한상"],
                 "price" : ["14000원", "13000원", "13000원", "13000원"],
-                "img" : ["보쌈 한 상.jpeg", "연잎밥과 장아찌.jpeg", "황태 한상.jpeg", "닭안심 한상.jpeg"]
+                "img" : ["/image/mImg/보쌈 한 상.jpeg", "/image/mImg/연잎밥과 장아찌.jpeg", "/image/mImg/황태 한상.jpeg", "/image/mImg/닭안심 한상.jpeg"]
             },
             "openTime" : "11:00",
             "closeTime" : "21:00",
@@ -50,12 +50,12 @@
         },
         {
             "rastaurant" : "오이지 대학로",
+            "rImg" : "/image/rImg/오이지 대학로.jpeg",
             "address" : "서울 종로구 대학로9길 33",
-            "rImg" : "오이지 대학로.jpeg", 
             "menu" : {
                 "name" : ["오이지 소왕갈비", "명란 치즈 순두부", "차돌 들기름 국수", "인절미 삼겹"],
                 "price" : ["290000원", "13000원", "10500원", "26000원"],
-                "img" : ["오이지 소왕갈비.png", "명란 치즈 순두부.png", "차돌 들기름 국수.png", "인절미 삼겹.png"]
+                "img" : ["/image/mImg/오이지 소왕갈비.png", "/image/mImg/명란 치즈 순두부.png", "/image/mImg/차돌 들기름 국수.png", "/image/mImg/인절미 삼겹.png"]
             },
             "openTime" : "11:30",
             "closeTime" : "22:00",
@@ -74,12 +74,12 @@
         },
         {
             "rastaurant" : "혜화도담",
-            "rImg" : "혜화도담.jpeg",
+            "rImg" : "/image/rImg/혜화도담.jpeg",
             "address" : "서울 종로구 대명1길 16-6 혜화도담",
             "menu" : {
                 "name" : ["김치찜", "돼지갈비찜", "대파전", "낚지볶음"],
                 "price" : ["20000원", "28000원", "13000원", "27000원"],
-                "img" : ["김치찜.png", "돼지갈비찜.jpg", "대파전.png", "낚지볶음.png"]
+                "img" : ["/image/mImg/김치찜.png", "/image/mImg/돼지갈비찜.jpg", "/image/mImg/대파전.png", "/image/mImg/낚지볶음.png"]
             },
             "openTime" : "11:30",
             "closeTime" : "22:00",
@@ -99,12 +99,12 @@
         
         {
             "rastaurant" : "태조감자국",
-            "rImg" : "태조감자국.jpeg",
+            "rImg" : "/image/rImg/태조감자국.jpeg",
             "address" : "서울 성북구 보문로34길 43 세학빌딩",
             "menu" : {
                 "name" : ["좋~타", "최고다", "무진장", "혹시나"],
                 "price" : ["20000원", "23000원", "28000원", "33000원"],
-                "img" : ["좋~타.jpeg", "최고다.jpeg", "무진장.jpeg", "혹시나.jpeg"]
+                "img" : ["/image/mImg/좋~타.jpeg", "/image/mImg/최고다.jpeg", "/image/mImg/무진장.jpeg", "/image/mImg/혹시나.jpeg"]
             },
             "openTime" : "10:30",
             "closeTime" : "23:00",
@@ -124,12 +124,12 @@
         
         {
             "rastaurant" : "팔백집",
-            "rImg" : "팔백집.png",
+            "rImg" : "/image/rImg/팔백집.png",
             "address" : "서울 성북구 보문로30길 46 1층",
             "menu" : {
                 "name" : ["돼지쫄갈비", "매운불고기", "콩나물 해장국", "시레기밥"],
                 "price" : ["13000원", "12000원", "6000원", "8000원"],
-                "img" : ["돼지쫄갈비.jpeg", "매운불고기.jpeg.", "콩나물 해장국.jpeg", "시레기밥.jpeg"]
+                "img" : ["/image/mImg/돼지쫄갈비.jpeg", "/image/mImg/매운불고기.jpeg.", "/image/mImg/콩나물 해장국.jpeg", "/image/mImg/시레기밥.jpeg"]
             },
             "openTime" : "11:30",
             "closeTime" : "24:00",
@@ -149,12 +149,12 @@
         
         {
             "rastaurant" : "중화명가 삼선점",
-            "rImg" : "중화명가 삼선점.png",
+            "rImg" : "/image/rImg/중화명가 삼선점.png",
             "address" : "서울 성북구 보문로 157-1 2층",
             "menu" : {
                 "name" : ["육해공얼큰짬뽕", "해물쟁반짜장", "차돌박이짬뽕", "팔보해물쟁반짜장"],
                 "price" : ["13000원", "9000원", "11000원", "23000원"],
-                "img" : ["육해공얼큰짬뽕.jpeg", "해물쟁반짜장.jpeg", "차돌박이짬뽕.jepg", "팔보해물쟁반짜장.jpeg"]
+                "img" : ["/image/mImg/육해공얼큰짬뽕.jpeg", "/image/mImg/해물쟁반짜장.jpeg", "/image/mImg/차돌박이짬뽕.jepg", "/image/mImg/팔보해물쟁반짜장.jpeg"]
             },
             "openTime" : "10:00",
             "closeTime" : "20:40",
@@ -173,12 +173,12 @@
         },
         {
             "rastaurant" : "송림원",
-            "rImg" : "송림원.png",
+            "rImg" : "/image/rImg/송림원.png",
             "address" : "서울 성북구 동소문로 25-2",
             "menu" : {
                 "name" : ["짜장면", "간짜장", "짬뽕", "탕수육"],
                 "price" : ["6000원", "7000원", "20000원", "7000원"],
-                "img" : ["짜장면.png", "간짜장.png", "짬뽕.png", "탕수육.jpeg"]
+                "img" : ["/image/mImg/짜장면.png", "/image/mImg/간짜장.png", "/image/mImg/짬뽕.png", "/image/mImg/탕수육.jpeg"]
             },
             "openTime" : "12:00",
             "closeTime" : "21:00",
@@ -197,12 +197,12 @@
         },
         {
             "rastaurant" : "탕화쿵푸마라탕 대학로점",
-            "rImg" : "탕화쿵푸마라탕 대학로점.jpeg",
+            "rImg" : "/image/rImg/탕화쿵푸마라탕 대학로점.jpeg",
             "address" : "서울 종로구 창경궁로 258-15 2층",
             "menu" : {
                 "name" : ["마라탕(100g)", "마라향궈(100g)", "마라반(100g)", "꿔바로우"],
                 "price" : ["1700원", "3000원", "2000원", "15000원"],
-                "img" : ["마라탕(100g).jpeg", "마라향궈(100g).jpeg", "마라반(100g).png", "꿔바로우.jpeg"]
+                "img" : ["/image/mImg/마라탕(100g).jpeg", "/image/mImg/마라향궈(100g).jpeg", "/image/mImg/마라반(100g).png", "/image/mImg/꿔바로우.jpeg"]
             },
             "openTime" : "11:30",
             "closeTime" : "21:30",
@@ -222,12 +222,12 @@
         
         {
             "rastaurant" : "하이디라오 대학로점",
-            "rImg" : "하이디라오 대학로점.jpeg",
+            "rImg" : "/image/rImg/하이디라오 대학로점.jpeg",
             "address" : "서울 종로구 대학로 146 혜화동씨티밸리 3층",
             "menu" : {
                 "name" : ["소고기(150g)", "새우완자(100g)", "양고기(150g)", "핑가시우 메기살(180g)"],
                 "price" : ["11900원", "6900원", "11900원", "6900원"],
-                "img" : ["소고기(150g).png", "새우완자(100g).png", "양고기(150g).png", "핑가시우 메기살(180g).png"]
+                "img" : ["/image/mImg/소고기(150g).png", "/image/mImg/새우완자(100g).png", "/image/mImg/양고기(150g).png", "/image/mImg/핑가시우 메기살(180g).png"]
             },
             "openTime" : "10:00",
             "closeTime" : "5:00",
@@ -246,12 +246,12 @@
         },
         {
             "rastaurant" : "애정마라샹궈",
-            "rImg" : "애정마라샹궈.png",
+            "rImg" : "/image/rImg/애정마라샹궈.png",
             "address" : "서울 성북구 동소문로20나길 11",
             "menu" : {
                 "name" : ["크림새우", "마라롱샤", "애정마라샹궈", "애정마라탕"],
                 "price" : ["17000원", "38000원", "변동", "변동"],
-                "img" : ["크림새우.png", "마라롱샤.png", "애정마라샹궈.jpeg", "애정마라탕.png"]
+                "img" : ["/image/mImg/크림새우.png", "/image/mImg/마라롱샤.png", "/image/mImg/애정마라샹궈.jpeg", "/image/mImg/애정마라탕.png"]
             },
             "openTime" : "11:00",
             "closeTime" : "23:00",
@@ -270,12 +270,12 @@
         },
         {
             "rastaurant" : "라라면가",
-            "rImg" : "라라면가.jpeg",
+            "rImg" : "/image/rImg/라라면가.jpeg",
             "address" : "서울 성북구 동소문로22길 57-25 1층",
             "menu" : {
                 "name" : ["우육탕면", "마라곱창탕면", "마라우육탕면", "딴딴면"],
                 "price" : ["10000원", "11000원", "11000원", "9500원"],
-                "img" : ["우육탕면.png", "마라곱창탕면.png", "마라우육탕면.jpeg", "딴딴면.png"]
+                "img" : ["/image/mImg/우육탕면.png", "/image/mImg/마라곱창탕면.png", "/image/mImg/마라우육탕면.jpeg", "/image/mImg/딴딴면.png"]
             },
             "openTime" : "11:30",
             "closeTime" : "21:00",
@@ -295,12 +295,12 @@
         
         {
             "rastaurant" : "스타동 한성대점",
-            "rImg" : "스타동 한성대점.jpg",
+            "rImg" : "/image/rImg/스타동 한성대점.jpg",
             "address" : "서울 성북구 삼선교로16길 40",
             "menu" : {
                 "name" : ["가츠가라아게동", "사케동", "믹스가츠동", "김치가츠나베"],
                 "price" : ["9900원", "14500원", "9900원", "11500원"],
-                "img" : ["가츠가라아게동.jpeg", "사케동.jpeg", "믹스가츠동.jpeg", "김치가츠나베.jpeg"]
+                "img" : ["/image/mImg/가츠가라아게동.jpeg", "/image/mImg/사케동.jpeg", "/image/mImg/믹스가츠동.jpeg", "/image/mImg/김치가츠나베.jpeg"]
             },
             "openTime" : "11:30",
             "closeTime" : "20:30",
@@ -320,12 +320,12 @@
         
         {
             "rastaurant" : "스시현",
-            "rImg" : "스시현.jpeg",
+            "rImg" : "/image/rImg/스시현.jpeg",
             "address" : "서울 성북구 동소문로8길 16 1층 스시현",
             "menu" : {
                 "name" : ["사시미정식", "특선초밥(13pcs)", "현모듬초밥(11pcs)", "스페셜초밥(13pcs)"],
                 "price" : ["39000원", "14000원", "14000원", "20000원"],
-                "img" : ["사시미정식.png", "특선초밥(13pcs).jpeg", "현모듬초밥(11pcs).jpeg", "스페셜초밥(13pcs).png"]
+                "img" : ["/image/mImg/사시미정식.png", "/image/mImg/특선초밥(13pcs).jpeg", "/image/mImg/현모듬초밥(11pcs).jpeg", "/image/mImg/스페셜초밥(13pcs).png"]
             },
             "openTime" : "11:30",
             "closeTime" : "21:40",
@@ -345,12 +345,12 @@
         
         {
             "rastaurant" : "스시마시따",
-            "rImg" : "스시마시따.png",
+            "rImg" : "/image/rImg/스시마시따.png",
             "address" : "서울 종로구 대명길 24 성진빌딩",
             "menu" : {
                 "name" : ["마시따 특선초밥+우동(소)", "마시따초밥+우동(소)", "VIP초밥+우동(소)", "연어초밥+우동(소)"],
                 "price" : ["14000원","11000원", "20000원", "14000원"],
-                "img" : ["마시따 특선초밥+우동(소).jpeg", "마시따초밥+우동(소).jpeg", "VIP초밥+우동(소).jpeg", "연어초밥+우동(소).jpeg"]
+                "img" : ["/image/mImg/마시따 특선초밥+우동(소).jpeg", "/image/mImg/마시따초밥+우동(소).jpeg", "/image/mImg/VIP초밥+우동(소).jpeg", "/image/mImg/연어초밥+우동(소).jpeg"]
             },
             "openTime" : "11:30",
             "closeTime" : "21:00",
@@ -369,12 +369,12 @@
         },
         {
             "rastaurant" : "호호식당 대학로",
-            "rImg" : "호호식당 대학로.jpeg",
+            "rImg" : "/image/rImg/호호식당 대학로.jpeg",
             "address" : "서울 종로구 대학로9길 35",
             "menu" : {
                 "name" : ["가츠나베정식", "히레가츠정식", "우나기동", "로스가츠정식"],
                 "price" : ["15000원", "15000원", "21000원", "13000원"],
-                "img" : ["가츠나베정식.jpeg", "히레가츠정식.jpeg", "우나기동.png", "로스가츠정식.png"]
+                "img" : ["/image/mImg/가츠나베정식.jpeg", "/image/mImg/히레가츠정식.jpeg", "/image/mImg/우나기동.png", "/image/mImg/로스가츠정식.png"]
             },
             "openTime" : "11:00",
             "closeTime" : "22:00",
@@ -394,12 +394,12 @@
         
         {
             "rastaurant" : "동경산책 성신여대점",
-            "rImg" : "동경산책 성신여대점.jpeg",
+            "rImg" : "/image/rImg/동경산책 성신여대점.jpeg",
             "address" : "서울 성북구 보문로34길 45",
             "menu" : {
                 "name" : ["스키야끼", "마제루롤정식", "연어롤정식", "장어덮밥"],
                 "price" : ["12000원", "14000원", "12000원", "14000원"],
-                "img" : ["스키야끼.png", "마제루롤정식.png", "연어롤정식.png", "장어덮밥.png"]
+                "img" : ["/image/mImg/스키야끼.png", "/image/mImg/마제루롤정식.png", "/image/mImg/연어롤정식.png", "/image/mImg/장어덮밥.png"]
             },
             "openTime" : "11:30",
             "closeTime" : "21:00",
@@ -418,12 +418,12 @@
         },
         {
             "rastaurant" : "윤휘식당",
-            "rImg" : "윤휘식당.jpeg",
+            "rImg" : "/image/rImg/윤휘식당.jpeg",
             "address" : "서울 성북구 보문로34길 70 2층",
             "menu" : {
                 "name" : ["함박스테이크", "치즈함박스테이크", "차슈동", "오코노미야끼"],
                 "price" : ["11500원", "12500원", "12000원", "14000원"],
-                "img" : ["함박스테이크.png", "치즈함박스테이크.png", "차슈동.png", "오코노미야끼.jpeg"]
+                "img" : ["/image/mImg/함박스테이크.png", "/image/mImg/치즈함박스테이크.png", "/image/mImg/차슈동.png", "/image/mImg/오코노미야끼.jpeg"]
             },
             "openTime" : "12:00",
             "closeTime" : "22:00",
@@ -443,12 +443,12 @@
         
         {
             "rastaurant" : "부부셰프",
-            "rImg" : "부부셰프.jpeg",
+            "rImg" : "/image/rImg/부부셰프.jpeg",
             "address" : "서울 성북구 성북로2길 21 1층",
             "menu" : {
                 "name" : ["남편피자", "마르게리따피자", "아내피자", "해산물토마토 파스타"],
                 "price" : ["18000원", "15000원", "16000원", "12500원"],
-                "img" : ["남편피자.jpeg", "마르게리따피자.jpeg", "아내피자.jpeg", "해산물토마토 파스타.jpeg"]
+                "img" : ["/image/mImg/남편피자.jpeg", "/image/mImg/마르게리따피자.jpeg", "/image/mImg/아내피자.jpeg", "/image/mImg/해산물토마토 파스타.jpeg"]
             },
             "openTime" : "11:30",
             "closeTime" : "21:00",
@@ -468,12 +468,12 @@
         
         {
             "rastaurant" : "돈시락",
-            "rImg" : "돈시락.jpeg",
+            "rImg" : "/image/rImg/돈시락.jpeg",
             "address" : "서울 성북구 보문로32길 6 1층 코너",
             "menu" : {
                 "name" : ["수제카츠", "치즈카츠", "반반카츠", "카츠카레"],
                 "price" : ["9800원", "10800원", "10800원", "7700원"],
-                "img" : ["수제카츠.png", "치즈카츠.png", "반반카츠.png", "카츠카레.png"]
+                "img" : ["/image/mImg/수제카츠.png", "/image/mImg/치즈카츠.png", "/image/mImg/반반카츠.png", "/image/mImg/카츠카레.png"]
             },
             "openTime" : "11:30",
             "closeTime" : "21:00",
@@ -493,12 +493,12 @@
         
         {
             "rastaurant" : "정돈 대학로본점",
-            "rImg" : "정돈 대학로본점.jpeg",
+            "rImg" : "/image/rImg/정돈 대학로본점.jpeg",
             "address" : "서울 종로구 대학로9길 12 지층",
             "menu" : {
                 "name" : ["안심 돈카츠(220g)", "등심 돈카츠(220g)", "동심+안심 돈카츠(등심100g+안심150g)", "스페셜 등심 돈카츠(230g)"],
                 "price" : ["15000원", "14000원", "19000원", "17000원"],
-                "img" : ["안심 돈카츠(220g).png", "등심 돈카츠(220g).png", "동심+안심 돈카츠(등심100g+안심150g).png", "스페셜 등심 돈카츠(230g).png"]
+                "img" : ["/image/mImg/안심 돈카츠(220g).png", "/image/mImg/등심 돈카츠(220g).png", "/image/mImg/동심+안심 돈카츠(등심100g+안심150g).png", "/image/mImg/스페셜 등심 돈카츠(230g).png"]
             },
             "openTime" : "11:30",
             "closeTime" : "22:00",
@@ -517,12 +517,12 @@
         },
         {
             "rastaurant" : "토끼정 대학로점",
-            "rImg" : "토끼정 대학로점.jpeg",
+            "rImg" : "/image/rImg/토끼정 대학로점.jpeg",
             "address" : "서울 종로구 대학로8가길 133",
             "menu" : {
                 "name" : ["파스타 토끼밥상", "반반구이 토끼밥상", "토끼정 크림 카레 우동", "토끼정 카레"],
                 "price" : ["35800원", "37800원", "12500원", "10500원"],
-                "img" : ["파스타 토끼밥상.png", "반반구이 토끼밥상.png", "토끼정 크림 카레 우동.png", "토끼정 카레.png"]
+                "img" : ["/image/mImg/파스타 토끼밥상.png", "/image/mImg/반반구이 토끼밥상.png", "/image/mImg/토끼정 크림 카레 우동.png", "/image/mImg/토끼정 카레.png"]
             },
             "openTime" : "11:00",
             "closeTime" : "22:00",
@@ -542,12 +542,12 @@
         
         {
             "rastaurant" : "마녀주방 성신여대점",
-            "rImg" : "마녀주방 성신여대점.jpeg",
+            "rImg" : "/image/rImg/마녀주방 성신여대점.jpeg",
             "address" : "서울 성북구 동소문로22길 11 2, 3층",
             "menu" : {
                 "name" : ["마녀의 돈마호크 스테이크", "마녀의 촛불 샐러드", "트러플 알리오올리오", "스네이크 로제파스타"],
                 "price" : ["15900원", "8500원", "11500원", "14500원"],
-                "img" : ["마녀의 돈마호크 스테이크.png", "마녀의 촛불 샐러드.png", "트러플 알리오올리오.png", "스네이크 로제파스타.png"]
+                "img" : ["/image/mImg/마녀의 돈마호크 스테이크.png", "/image/mImg/마녀의 촛불 샐러드.png", "/image/mImg/트러플 알리오올리오.png", "/image/mImg/스네이크 로제파스타.png"]
             },
             "openTime" : "12:00",
             "closeTime" : "22:00",
@@ -566,12 +566,12 @@
         },
         {
             "rastaurant" : "초이양식",
-            "rImg" : "초이양식.jpeg",
+            "rImg" : "/image/rImg/초이양식.jpeg",
             "address" : "서울 성북구 동소문로20나길 26-1 2층 쵸이양식",
             "menu" : {
                 "name" : ["클래식치즈피자", "페퍼로니피자", "포테이토피자", "라구피자"],
                 "price" : ["10900원", "11900원", "14000원", "14000원"],
-                "img" : ["클래식치즈피자.jpeg", "페퍼로니피자.png", "포테이토피자.png", "라구피자.jpeg"]
+                "img" : ["/image/mImg/클래식치즈피자.jpeg", "/image/mImg/페퍼로니피자.png", "/image/mImg/포테이토피자.png", "/image/mImg/라구피자.jpeg"]
             },
             "openTime" : "12:00",
             "closeTime" : "22:00",
@@ -591,12 +591,12 @@
         
         {
             "rastaurant" : "신전떡볶이 한성대점",
-            "rImg" : "신전떡볶이 한성대점.jpeg",
+            "rImg" : "/image/rImg/신전떡볶이 한성대점.jpeg",
             "address" : "서울 성북구 삼선교로10길 75",
             "menu" : {
                 "name" : ["떡볶이", "신전로제떡볶이", "치즈떡볶이", "오뎅튀김"],
                 "price" : ["3500원", "5500원", "5500원", "1700원"],
-                "img" : ["떡볶이.jpeg", "신전로제떡볶이.jpeg", "치즈떡볶이.jpeg", "오뎅튀김.jpeg"]
+                "img" : ["/image/mImg/떡볶이.jpeg", "/image/mImg/신전로제떡볶이.jpeg", "/image/mImg/치즈떡볶이.jpeg", "/image/mImg/오뎅튀김.jpeg"]
             },
             "openTime" : "11:00",
             "closeTime" : "21:00",
@@ -615,12 +615,12 @@
         },
         {
             "rastaurant" : "바르다김선생 한성대입구역점",
-            "rImg" : "바르다김선생 한성대입구역점.jpeg",
+            "rImg" : "/image/rImg/바르다김선생 한성대입구역점.jpeg",
             "address" : "서울 성북구 성북로 11",
             "menu" : {
                 "name" : ["키토 크림치즈 호두 김밥", "우리 숙성지 참치 김밥", "갈비만두", "든든 치킨 카레"],
                 "price" : ["6500원", "6800원", "5500원", "9500d원"],
-                "img" : ["키토 크림치즈 호두 김밥.jpeg", "우리 숙성지 참치 김밥.jpeg", "갈비만두.jpeg", "든든 치킨 카레.jpeg"]
+                "img" : ["/image/mImg/키토 크림치즈 호두 김밥.jpeg", "/image/mImg/우리 숙성지 참치 김밥.jpeg", "/image/mImg/갈비만두.jpeg", "/image/mImg/든든 치킨 카레.jpeg"]
             },
             "openTime" : "10:00",
             "closeTime" : "21:30",
@@ -639,12 +639,12 @@
         },
         {
             "rastaurant" : "부부김밥",
-            "rImg" : "부부김밥.png",
+            "rImg" : "/image/rImg/부부김밥.png",
             "address" : "서울 종로구 동숭길 43",
             "menu" : {
                 "name" : ["매콤 진미채 김밥", "소세지 치즈 김밥", "스팸에그 김밥", "부부김밥"],
                 "price" : ["5200원", "5800원", "5500원","4500원"],
-                "img" : ["매콤 진미채 김밥", "소세지 치즈 김밥", "스팸에그 김밥", "부부김밥"]
+                "img" : ["/image/mImg/매콤 진미채 김밥", "/image/mImg/소세지 치즈 김밥", "/image/mImg/스팸에그 김밥", "/image/mImg/부부김밥"]
             },
             "openTime" : "9:00",
             "closeTime" : "20:00",
@@ -664,12 +664,12 @@
         
         {
             "rastaurant" : "봉쥬떡볶이",
-            "rImg" : "봉쥬떡볶이.jpeg",
+            "rImg" : "/image/rImg/봉쥬떡볶이.jpeg",
             "address" : "서울 종로구 대명길 4 지하1층",
             "menu" : {
                 "name" : ["버터갈릭감자세트", "모둠튀김세트", "치킨세트", "즉석떡볶이"],
                 "price" : ["17000원", "17000원", "17000원", "6000원"],
-                "img" : ["버터갈릭감자세트.png", "모둠튀김세트.png", "치킨세트.png", "즉석떡볶이.png"]
+                "img" : ["/image/mImg/버터갈릭감자세트.png", "/image/mImg/모둠튀김세트.png", "/image/mImg/치킨세트.png", "/image/mImg/즉석떡볶이.png"]
             },
             "openTime" : "11:30",
             "closeTime" : "21:00",
@@ -689,12 +689,12 @@
       
         {
             "rastaurant" : "배떡 성신여대점",
-            "rImg" : "배떡 성신여대점.jpeg",
+            "rImg" : "/image/rImg/배떡 성신여대점.jpeg",
             "address" : "서울 성북구 동소문로24가길 18 1층",
             "menu" : {
                 "name" : ["로제떡볶이 1~2인분", "로제숯불떡볶이 1~2인분", "분모자떡볶이 1~2인분", "소곱창떡볶이 1~2인분"],
                 "price" : ["15000원", "10000원", "12000원", "14000원"],
-                "img" : ["로제떡볶이 1~2인분.jpeg", "로제숯불떡볶이 1~2인분.jpeg", "분모자떡볶이 1~2인분.jpeg", "소곱창떡볶이 1~2인분.jpeg"]
+                "img" : ["/image/mImg/로제떡볶이 1~2인분.jpeg", "/image/mImg/로제숯불떡볶이 1~2인분.jpeg", "/image/mImg/분모자떡볶이 1~2인분.jpeg", "/image/mImg/소곱창떡볶이 1~2인분.jpeg"]
             },
             "openTime" : "10:50",
             "closeTime" : "22:00",
@@ -714,12 +714,12 @@
         
         {
             "rastaurant" : "수아당",
-            "rImg" : "수아당.png",
+            "rImg" : "/image/rImg/수아당.png",
             "address" : "서울 성북구 동소문로20가길 33",
             "menu" : {
                 "name" : ["수아김밥", "치란김밥", "참치김밥", "치치불김밥"],
                 "price" : ["4500원", "5000원", "5000원", "5000원"],
-                "img" : ["수아김밥.jpeg", "치란김밥.jpeg", "참치김밥.jpeg", "치치불김밥.jpeg"]
+                "img" : ["/image/mImg/수아김밥.jpeg", "/image/mImg/치란김밥.jpeg", "/image/mImg/참치김밥.jpeg", "/image/mImg/치치불김밥.jpeg"]
             },
             "openTime" : "7:00",
             "closeTime" : "23:00",
@@ -738,12 +738,12 @@
         },
         {
             "rastaurant" : "달콤한위로",
-            "rImg" : "달콤한위로.png",
+            "rImg" : "/image/rImg/달콤한위로.png",
             "address" : "서울 성북구 창경궁로43길 24 1층",
             "menu" : {
                 "name" : ["프랑스도넛", "엘레강스(무스케익)", "크림브륄레", "뺑 오래"],
                 "price" : ["3800원", "8500원", "4500원", "3500원"],
-                "img" : ["프랑스도넛.png", "엘레강스(무스케익).png", "크림브륄레.jpeg", "뺑 오래.png"]
+                "img" : ["/image/mImg/프랑스도넛.png", "/image/mImg/엘레강스(무스케익).png", "/image/mImg/크림브륄레.jpeg", "/image/mImg/뺑 오래.png"]
             },
             "openTime" : "10:00",
             "closeTime" : "21:00",
@@ -763,12 +763,12 @@
         
         {
             "rastaurant" : "해로커피",
-            "rImg" : "해로커피.jpeg",
+            "rImg" : "/image/rImg/해로커피.jpeg",
             "address" : "서울 성북구 성북로 19-3",
             "menu" : {
                 "name" : ["아메리카노", "플랫화이트", "아인슈페너", "티라미수"],
                 "price" : ["5000원", "5500원", "6000원", "5000원"],
-                "img" : ["아메리카노.png", "플랫화이트.jpeg", "아인슈페너.jpeg", "티라미수.png"]
+                "img" : ["/image/mImg/아메리카노.png", "/image/mImg/플랫화이트.jpeg", "/image/mImg/아인슈페너.jpeg", "/image/mImg/티라미수.png"]
             },
             "openTime" : "11:00",
             "closeTime" : "22:00",
@@ -787,12 +787,12 @@
         },
         {
             "rastaurant" : "카페다오",
-            "rImg" : "카페다오.png",
+            "rImg" : "/image/rImg/카페다오.png",
             "address" : "서울 종로구 대학로14길 19",
             "menu" : {
                 "name" : ["말차갸또쇼콜라", "구움과자", "라즈베리치즈갸또", "얼그레이갸또"],
                 "price" : ["7000원", "변동", "7000원", "6500원"],
-                "img" : ["말차갸또쇼콜라.png", "구움과자.png", "라즈베리치즈갸또.png", "얼그레이갸또.png"]
+                "img" : ["/image/mImg/말차갸또쇼콜라.png", "/image/mImg/구움과자.png", "/image/mImg/라즈베리치즈갸또.png", "/image/mImg/얼그레이갸또.png"]
             },
             "openTime" : "12:00",
             "closeTime" : "21:00",
@@ -812,12 +812,12 @@
         
         {
             "rastaurant" : "셰이디드",
-            "rImg" : "셰이디드.jpeg",
+            "rImg" : "/image/rImg/셰이디드.jpeg",
             "address" : "서울 종로구 성균관로3길 15 1층",
             "menu" : {
                 "name" : ["썸머라떼", "바나나푸딩", "휘낭시에", "패션프로츠우유"],
                 "price" : ["6000원", "5000원", "변동", "6000원"],
-                "img" : ["썸머라떼.jpeg", "바나나푸딩.jpeg", "휘낭시에.png", "패션프로츠우유.png"]
+                "img" : ["/image/mImg/썸머라떼.jpeg", "/image/mImg/바나나푸딩.jpeg", "/image/mImg/휘낭시에.png", "/image/mImg/패션프로츠우유.png"]
             },
             "openTime" : "12:00",
             "closeTime" : "21:00",
@@ -836,12 +836,12 @@
         },
         {
             "rastaurant" : "카페 구월",
-            "rImg" : "카페 구월.jpeg",
+            "rImg" : "/image/rImg/카페 구월.jpeg",
             "address" : "서울 성북구 보문로30길 43",
             "menu" : {
                 "name" : ["구월크로플", "브라운치즈크로플", "구월라떼", "단호박샐러드샌드위치"],
                 "price" : ["7000원", "7500원", "6000원", "4500원"],
-                "img" : ["구월크로플.png", "브라운치즈크로플.png", "구월라떼.jpeg", "단호박샐러드샌드위치.jpeg"]
+                "img" : ["/image/mImg/구월크로플.png", "/image/mImg/브라운치즈크로플.png", "/image/mImg/구월라떼.jpeg", "/image/mImg/단호박샐러드샌드위치.jpeg"]
             },
             "openTime" : "10:00",
             "closeTime" : "22:00",
@@ -860,12 +860,12 @@
         },
         {
             "rastaurant" : "카페코지 성신여대점",
-            "rImg" : "카페코지 성신여대점.png",
+            "rImg" : "/image/rImg/카페코지 성신여대점.png",
             "address" : "서울 성북구 보문로34길 88 1층 1호",
             "menu" : {
                 "name" : ["코코넛커피스무디", "초코칩 코코넛 스무디", "코코넛 딸기 스무디", "코코넛 녹차스무디"],
                 "price" : ["4000원", "4300원", "4300원", "4300원"],
-                "img" : ["코코넛커피스무디.png", "초코칩 코코넛 스무디.png", "코코넛 딸기 스무디.png", "코코넛 녹차스무디.png"]
+                "img" : ["/image/mImg/코코넛커피스무디.png", "/image/mImg/초코칩 코코넛 스무디.png", "/image/mImg/코코넛 딸기 스무디.png", "/image/mImg/코코넛 녹차스무디.png"]
             },
             "openTime" : "10:30",
             "closeTime" : "19:00",
