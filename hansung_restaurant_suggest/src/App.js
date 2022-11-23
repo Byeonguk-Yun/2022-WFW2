@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Login from './components/Login'
 import MyPage from './components/MyPage'
-import Introduction from './components/introduction';
+import Introduction from './components/Introduction';
 import HeaderMenu from './components/Header';
 import SimpleInfo1 from './components/SimpleInfo1';
 

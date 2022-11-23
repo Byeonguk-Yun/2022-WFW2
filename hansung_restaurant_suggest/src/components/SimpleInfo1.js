@@ -17,14 +17,14 @@ const SimpleInfo1 = ( props ) => {
     const name = props.restaurant;
     console.log("name " + name);
     
-    /*
+    
     var about = null;
     const addr = restaurant.list.map((r) => {
         if((r.rastaurant) === name)
             return about = r;
     })
     console.log(about.rastaurant);
-    */
+    
 
     return(
     <div style={{width:"250px", height:"200px", textAlign:"center"}}>
@@ -32,7 +32,7 @@ const SimpleInfo1 = ( props ) => {
         <CardHeader title={name} />
         <CardContent>
             <Typography variant="body1" component="p">
-                <img src={process.env.PUBLIC_URL+"/image/rImg/달콤한위로.png"} style={{width:"200px", height:"150px", marginLeft:"5px"}}/> <br />
+                <img src={process.env.PUBLIC_URL+about.rImg} style={{width:"200px", height:"150px", marginLeft:"5px"}}/> <br />
             </Typography>
         </CardContent>
         <CardActions>

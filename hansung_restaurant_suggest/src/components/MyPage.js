@@ -51,7 +51,7 @@ const MyPage = () => {
             <div class="group1">
                 <div class="img"><img src={process.env.PUBLIC_URL+img} style={{width : "100px", height:"100px"}}></img></div>
                 <div class="info">
-                    <p style={{paddingTop:"30px"}}>ID : {id}</p>
+                    <p style={{paddingTop:"10px", fontSize:"30px"}}>ID : {id}</p>
                 </div>
             
             </div>
@@ -59,19 +59,13 @@ const MyPage = () => {
                 <p style={{marginLeft:"15px", fontWeight:"bold"}}>좋아요한 식당 List</p>
                 <div style={{display:"inline-block", boxSizing: "border-box", margin:"10px"}}><SimpleInfo1 restaurant={like[0]}></SimpleInfo1></div>
                 <div style={{display:"inline-block", boxSizing: "border-box", margin:"10px"}}><SimpleInfo1 restaurant={like[1]}></SimpleInfo1></div>
-                <div style={{display:"inline-block", boxSizing: "border-box", margin:"10px"}}><SimpleInfo1 restaurant={like[1]}></SimpleInfo1></div>
-                <div style={{display:"inline-block", boxSizing: "border-box", margin:"10px"}}><SimpleInfo1 restaurant={like[1]}></SimpleInfo1></div>
-                
-            </div>
-            <div>
-                <h5>최근에 본 식당 : {recent}</h5>
+                <div style={{display:"inline-block", boxSizing: "border-box", margin:"10px"}}><SimpleInfo1 restaurant={like[2]}></SimpleInfo1></div>
+                <div style={{display:"inline-block", boxSizing: "border-box", margin:"10px"}}><SimpleInfo1 restaurant={like[3]}></SimpleInfo1></div>
+                <div style={{display:"inline-block", boxSizing: "border-box", margin:"10px"}}><SimpleInfo1 restaurant={like[3]}></SimpleInfo1></div>
             </div>
             <div class="bottom">
                 <Link to={"/"}>
                     <button class="back">뒤로가기</button>
-                </Link>
-                <Link to={"/introduction/호호식당 대학로"}>
-                    <button class="resInfo">식당소개</button>
                 </Link>
             </div>
         </div>

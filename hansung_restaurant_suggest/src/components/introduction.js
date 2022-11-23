@@ -1,18 +1,18 @@
 /* global kakao */
 import React from 'react';
-import {useState, useEffect} from 'react';
-import { Link, useLocation } from "react-router-dom";
-import restaurant from "../dummy/restaurant.json"
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import restaurant from '../dummy/restaurant.json';
 import axios from 'axios';
-//import cn from "classnames";
-import { Map, MapMarker } from "react-kakao-maps-sdk";
-import Script from "react-load-script";
-import MapApi from './MapApi'
+import MapApi from './MapApi';
+import "./Introduction.css";
+import HeaderMenu from './Header';
+
 
 /* global kako */
 
 const Introduction = () => {
     var path = useLocation().pathname;
+    let navigate= useNavigate();
     console.log("주소 : " + decodeURI(path));
     const index = path.split('/');
     console.log("식당 : " + decodeURI(index[2]));
@@ -58,32 +58,40 @@ const Introduction = () => {
     }    
 
     return (
-        <div>
+        <>
+        <div class="entire">
             <h3 style={{padding:"10px"}}>{name}</h3>
             <div style={{border: "1px dashed" }}>
-                <p style={{padding:"10px", fontWeight:"bold"}}>주소  {address}</p>
+                <p>주소  {address}</p>
                 
                 <MapApi />
 
-                <p style={{padding:"10px", fontWeight:"bold"}}>메뉴</p>
-                <p style={{padding:"10px", fontWeight:"bold"}}>{about.menu.name.join(", ")}</p>
-                <p style={{padding:"10px", fontWeight:"bold"}}>{about.menu.price.join(", ")}</p>
+                <p>메뉴</p>
+                <p>{about.menu.name.join(", ")}</p>
+                <p>{about.menu.price.join(", ")}</p>
                 <p>
-                    <img src={process.env.PUBLIC_URL+about.menu.img[0]} style={{width:"100px", height:"100px"}}></img>
-                    <img src={process.env.PUBLIC_URL+about.menu.img[1]} style={{width:"100px", height:"100px"}}></img>
-                    <img src={process.env.PUBLIC_URL+about.menu.img[2]} style={{width:"100px", height:"100px"}}></img>
-                    <img src={process.env.PUBLIC_URL+about.menu.img[3]} style={{width:"100px", height:"100px"}}></img>
+                    <img src={process.env.PUBLIC_URL+about.menu.img[0]}></img>
+                    <img src={process.env.PUBLIC_URL+about.menu.img[1]}></img>
+                    <img src={process.env.PUBLIC_URL+about.menu.img[2]}></img>
+                    <img src={process.env.PUBLIC_URL+about.menu.img[3]}></img>
                 </p>
 
-                <p style={{padding:"10px", fontWeight:"bold"}}>OPEN     {openTime}</p>
-                <p style={{padding:"10px", fontWeight:"bold"}}>CLOSE     {closeTime}</p>
-                <p style={{padding:"10px", fontWeight:"bold"}}>BREAK     {about.breakTime.start + " ~ " + about.breakTime.end}</p>
-                <p style={{padding:"10px", fontWeight:"bold"}}>휴무일 {dayOff}</p>
-                <p style={{padding:"10px", fontWeight:"bold"}}>Tel {tel}</p>
-                <p style={{padding:"10px", fontWeight:"bold"}}>LastOrder 점심 : {about.lastOrder.점심}</p>
-                <p style={{padding:"10px", fontWeight:"bold"}}>LastOrder 저녁 : {about.lastOrder.저녁}</p>
+                <p>OPEN     {openTime}</p>
+                <p>CLOSE     {closeTime}</p>
+                <p>BREAK     {about.breakTime.start + " ~ " + about.breakTime.end}</p>
+                <p>휴무일 {dayOff}</p>
+                <p>Tel {tel}</p>
+                <p >LastOrder 점심 : {about.lastOrder.점심}</p>
+                <p>LastOrder 저녁 : {about.lastOrder.저녁}</p>
+            </div>
+
+            <div class="bottom">
+                
+                    <button class="back" onClick={() => navigate(-1)}>뒤로가기</button>
+
             </div>
         </div>
+        </>
     );
 }
 

@@ -1,5 +1,6 @@
 
 .entire{
+    overflow:scroll;
     padding-top: 150px;
     padding-bottom: 100%;
     width: 100%;
@@ -15,17 +16,11 @@
 }
 
 .img{
-    width: 20%;
     float: left;
-
 }
 
 .info{
     text-align: left;
-}
-
-.bottom{
-    background-color: rgb(220, 220, 220);
 }
 
 .back{

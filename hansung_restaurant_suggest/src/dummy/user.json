@@ -3,7 +3,7 @@
     {
       "id" : "user1",
       "pw" : "1234",
-      "like" : ["홍추곱창카페", "호호식당 대학로"],
+      "like" : ["홍추곱창카페", "호호식당 대학로", "달콤한위로", "오이지 대학로"],
       "recent" : [],
       "profile" : "/image/standardProfile.png"
     },
