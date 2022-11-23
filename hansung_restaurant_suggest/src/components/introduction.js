@@ -122,7 +122,6 @@ const Introduction = () => {
 
     return (
         <div>
-            <p style={{ textAlign: "center", margin: 10 }}>맛집 소개</p>
             <h3 style={{padding:"10px"}}>{name}</h3>
             <div style={{border: "1px dashed" }}>
                 <p style={{padding:"10px", fontWeight:"bold"}}>주소  {address}</p>

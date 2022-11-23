@@ -2,93 +2,38 @@ import React from 'react';
 import {useState, useEffect} from 'react';
 import { useNavigate, Link, Route, Routes} from "react-router-dom";
 import userList from "../dummy/user.json"
-import MyPage from "./MyPage"
 
 const Login = () => {
-  
-  // 회원가입 
-  //const [registerEmail, setRegisterEmail] = useState("");
-  //const [registerPassword, setRegisterPassword] = useState("");
-  
   // 로그인 
   const [loginId, setLoginId] = useState(); 
   const [loginPassword, setLoginPassword] = useState();
-  const [check, setCheck] = useState(0); 
   
-  /*
-  useEffect(() => {
-    if (loginId || loginPassword) return;
-    setLoginId(loginId);
-    setLoginPassword(loginPassword);
-  }, [loginId, loginPassword]);
-  
-  const onChange = (event) => {
-    const {target: {name, value}} = event;
-    if (name==="loginEmail") {
-      setLoginId(value)
-    } else if (name=== "loginPassword") {
-      setLoginPassword(value);
-    }
-  }
-  */
-
-  /*  
-  //회원가입
-  const register = async () => {
-    try {
-      const user = await createUserWithEmailAndPassword(
-        getAuth,
-        registerEmail,
-        registerPassword
-      );
-      console.log(user);
-    } catch (error) {
-      console.log(error.message);
-    }
-  };
-  */
   //로그인
   const login = () => {
     var idCheck = 0;
     var pwCheck = 0;
     try {
-      //userList.user.some(id => (id === loginId) ? idCheck=1 : idCheck =0 );
       if(userList.user.some((u) => (u.id === loginId))){
         idCheck=1;
       }
-      //console.log("id : " + userList.user.id);
-      //console.log("LoginId : " + loginId);
-      //console.log("idCheck : "+idCheck);
 
       if(userList.user.some((u) => (u.pw === loginPassword))){
         pwCheck=1;
       }
       
-      //console.log("pw : " + userList.user.pw);
-      //console.log("LoginPW : " + loginPassword);
-      //console.log("pwCheck : "+pwCheck);
       if(idCheck == 1 && pwCheck ==1){
         userList.user.find((u) => {
-          if(u.recent.find(r => r != "마녀식당"))
-            u.recent = [...u.recent, "마녀식당"]
+          if(u.recent.find(r => r!= "마녀식당"))
+            u.recent = ([...u.recent, "마녀식당"]);
         })
       }
-        console.log("로그인");
-        //<MyPage id = {loginId} />
-        ///console.log("check : "+check);
-        //<Route path="/mypage/:id" element={<MyPage id={loginId}/>} />
+      console.log("로그인");
       
     } catch (error) {
         console.log("Error" + error.message);
     }
     
   };
-
-  //로그아웃
-  const logout = () => {
-    //signOut(getAuth);
-  };
-  
 
   return (
     <div style={{ textAlign: "center", margin: 10 }}>
@@ -106,7 +51,7 @@ const Login = () => {
           }}
         />
         <input
-          type="text"
+          type="password"
           name="loginPassword"
           value={loginPassword}
           placeholder="Password"
@@ -123,5 +68,5 @@ const Login = () => {
     </div>
   );
 }
-//<Link to={"/mypage/:"+loginId}>
+
 export default Login;

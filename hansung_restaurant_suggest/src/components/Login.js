@@ -2,12 +2,12 @@ import React from 'react';
 import {useState, useEffect} from 'react';
 import { useNavigate, Link, Route, Routes} from "react-router-dom";
 import userList from "../dummy/user.json"
+import "./Login.css";
 
 const Login = () => {
   // 로그인 
-  const [loginId, setLoginId] = useState(); 
-  const [loginPassword, setLoginPassword] = useState();
-  const [check, setCheck] = useState(0); 
+  const [loginId, setLoginId] = useState(""); 
+  const [loginPassword, setLoginPassword] = useState("");
   
   //로그인
   const login = () => {
@@ -37,35 +37,27 @@ const Login = () => {
   };
 
   return (
-    <div style={{ textAlign: "center", margin: 10 }}>
-      
-      <div>
-        <h3>Login</h3>
-        <form>
-        <input
-          type="text"
-          name="loginEmail"
-          value={loginId}
-          placeholder="Email"
-          onChange={(e)=>{
-            setLoginId(e.target.value);
-          }}
-        />
-        <input
-          type="password"
-          name="loginPassword"
-          value={loginPassword}
-          placeholder="Password"
-          onChange={(e)=>{
-            setLoginPassword(e.target.value);
-          }}
-        />
-        <Link to={"/mypage/"+loginId+"/"+loginPassword}>
-          <button onClick={login}>Login</button>
-        </Link>
-        
-        </form>
-      </div>
+    <div class="loginPage">
+      <h2 class="title" style={{textAlign:"center"}}>Sign In</h2>
+      <form class="loginFrom">
+        <div class="loginDiv"> 
+          <h4>아 이 디 
+          <input class="idpwField" type="text" name="loginEmail" value={loginId} placeholder="ID"
+            onChange={(e)=>{ setLoginId(e.target.value); }}/>
+          </h4>
+          <h4>비밀번호 
+          <input class="idpwField" type="text" name="loginPassword" value={loginPassword} placeholder="Password"
+            onChange={(e)=>{ setLoginPassword(e.target.value); }} />
+          </h4>
+          </div>
+          
+          <br></br>
+        <div class="loginDiv"> 
+          <Link to={"/mypage/"+loginId+"/"+loginPassword}>
+            <button id="loginBtn" onClick={login}>Login</button>
+          </Link>
+        </div>
+      </form>
     </div>
   );
 }
