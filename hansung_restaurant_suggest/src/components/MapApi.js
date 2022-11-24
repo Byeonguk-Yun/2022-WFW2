@@ -3,10 +3,8 @@ import React, { useEffect, useState } from 'react';
 const { kakao } = window;
 
 const MapApi = (props) => {
-  const [address, setAddress] = useState("");
 
   useEffect(() => {
-    setAddress(props.address)
     const container = document.getElementById('myMap');
     const options = {
       center: new kakao.maps.LatLng(33.450701, 126.570667),
@@ -16,7 +14,7 @@ const MapApi = (props) => {
   
     const ps = new kakao.maps.services.Places(); 
 
-    ps.keywordSearch('서울 종로구 대학로9길 35', placesSearchCB); 
+    ps.keywordSearch((props.address), placesSearchCB); 
 
     function placesSearchCB (data, status, pagination) {
         if (status === kakao.maps.services.Status.OK) {

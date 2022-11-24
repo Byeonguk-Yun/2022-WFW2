@@ -46,7 +46,7 @@ const Login = () => {
             onChange={(e)=>{ setLoginId(e.target.value); }}/>
           </h4>
           <h4>비밀번호 
-          <input class="idpwField" type="text" name="loginPassword" value={loginPassword} placeholder="Password"
+          <input class="idpwField" type="password" name="loginPassword" value={loginPassword} placeholder="Password"
             onChange={(e)=>{ setLoginPassword(e.target.value); }} />
           </h4>
           </div>

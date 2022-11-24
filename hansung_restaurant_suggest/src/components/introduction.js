@@ -6,9 +6,9 @@ import axios from 'axios';
 import MapApi from './MapApi';
 import "./Introduction.css";
 import HeaderMenu from './Header';
+//import MapApi2 from './MapApi2';
 
 
-/* global kako */
 
 const Introduction = () => {
     var path = useLocation().pathname;
@@ -56,7 +56,7 @@ const Introduction = () => {
             axios.get(about);
         }
     }    
-
+    //<MapApi address={address}/>
     return (
         <>
         <div class="entire">
@@ -64,8 +64,7 @@ const Introduction = () => {
             <div style={{border: "1px dashed" }}>
                 <p>주소  {address}</p>
                 
-                <MapApi />
-
+                <MapApi address={address}/>
                 <p>메뉴</p>
                 <p>{about.menu.name.join(", ")}</p>
                 <p>{about.menu.price.join(", ")}</p>
