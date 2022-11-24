@@ -64,7 +64,7 @@ const Introduction = () => {
             <div style={{border: "1px dashed" }}>
                 <p>주소  {address}</p>
                 
-                
+                <MapApi />
                 <p>메뉴</p>
                 <p>{about.menu.price.join(", ")}</p>
                 <p>{about.menu.price.join(", ")}</p>
