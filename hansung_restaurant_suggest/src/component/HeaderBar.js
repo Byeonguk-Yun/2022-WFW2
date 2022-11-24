@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import siteLogo from '../Logo1.JPG';
 import '../css/HeaderBar.css'
