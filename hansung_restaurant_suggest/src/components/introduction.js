@@ -64,9 +64,9 @@ const Introduction = () => {
             <div style={{border: "1px dashed" }}>
                 <p>주소  {address}</p>
                 
-                <MapApi address={address}/>
+                
                 <p>메뉴</p>
-                <p>{about.menu.name.join(", ")}</p>
+                <p>{about.menu.price.join(", ")}</p>
                 <p>{about.menu.price.join(", ")}</p>
                 <p>
                     <img src={process.env.PUBLIC_URL+about.menu.img[0]}></img>

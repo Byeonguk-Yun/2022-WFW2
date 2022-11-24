@@ -14,9 +14,7 @@ import { useLocation, Link } from 'react-router-dom';
 
 const SimpleMenu = () => {
 
-    return(
-        
-    );
+    
 }
 
 export default SimpleMenu;
