@@ -13,7 +13,9 @@ import userList from "../dummy/user.json";
 import { useLocation, Link } from 'react-router-dom';
 
 const SimpleInfo1 = ( props ) => {
+    console.log("id 전달 : " + props.id);
     console.log("가게 전달 " + props.restaurant);
+    const id = props.id;
     const name = props.restaurant;
     console.log("name " + name);
     
@@ -25,6 +27,21 @@ const SimpleInfo1 = ( props ) => {
     })
     console.log(about.rastaurant);
     
+    const addRecent = () => {
+        userList.user.map(u => {
+            if(u.id === id){
+                return new Promise((resolve, reject) =>{
+                    let result;
+                    try{
+                        u.recent += name;
+                    }catch(err){
+                        reject(err);
+                    }
+                    resolve(result);
+                })
+            }
+        })
+    }
 
     return(
     <div style={{width:"250px", height:"200px", textAlign:"center"}}>
@@ -36,8 +53,8 @@ const SimpleInfo1 = ( props ) => {
             </Typography>
         </CardContent>
         <CardActions>
-            <Link to = {"/introduction/"+name}>
-            <button style={{backgroundColor:"pink",borderRadius:"20px", padding:"10px", marginLeft:"70px", display:"block"}}>
+            <Link to = {"/introduction/"+id+"/"+name}>
+            <button onClick={addRecent} style={{backgroundColor:"pink",borderRadius:"20px", padding:"10px", marginLeft:"70px", display:"block"}}>
                 가게 상세보기
             </button>
             </Link>

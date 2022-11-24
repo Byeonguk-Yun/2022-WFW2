@@ -1,7 +1,8 @@
-/* global kakao */
+
 import React from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import restaurant from '../dummy/restaurant.json';
+import userList from '../dummy/user.json';
 import axios from 'axios';
 import MapApi from './MapApi';
 import "../css/Introduction.css";
@@ -15,9 +16,23 @@ const Introduction = () => {
     let navigate= useNavigate();
     console.log("주소 : " + decodeURI(path));
     const index = path.split('/');
-    console.log("식당 : " + decodeURI(index[2]));
+    console.log("식당 : " + decodeURI(index[3]));
 
-    const name = decodeURI(index[2]);
+    const id = decodeURI(index[2]);
+    const name = decodeURI(index[3]);
+    var recent = null;
+    
+    
+    const recents = userList.user.map((u) => {
+        if(u.id === id)
+            return
+                if(recent != null)
+                    recent = u.recent.join(", ")
+        // 오류
+    });
+    
+
+    console.log("최근 : " + recent)
     
     var address = null;
     var menu = null;
@@ -36,7 +51,6 @@ const Introduction = () => {
     })
 
     if(about != null){
-        console.log("인식");
         address = about.address;
         menu = () => {
             axios.get(about)
