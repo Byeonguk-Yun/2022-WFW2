@@ -5,6 +5,7 @@ import MyPage from './components/MyPage'
 import Introduction from './components/Introduction';
 import HeaderMenu from './components/Header';
 import SimpleInfo1 from './components/SimpleInfo1';
+import AutoSlider from 'react-slick';
 
 function App() {
  
@@ -18,7 +19,7 @@ function App() {
   return(
     //<Login/>
     <Routes>
-    <Route path="/" element={<Login />} />
+    <Route path="/" element={<AutoSlider />} />
     <Route path="/login" element={<Login />} />
     <Route path="/mypage/:id/:pw" element={<MyPage />} />
     <Route path="/introduction/:restaurant" element={<Introduction />} />
