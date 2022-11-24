@@ -1,0 +1,19 @@
+.entire{
+    padding-top: 150px;
+    padding-bottom: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow: scroll;
+}
+
+
+p{
+    padding: 10px;
+    font-weight: bold;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

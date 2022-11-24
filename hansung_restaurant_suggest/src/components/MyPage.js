@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import userList from '../dummy/user.json';
 import HeaderMenu from './Header';
-import './MyPage.css';
+import '../css/MyPage.css';
 import SimpleInfo1 from './SimpleInfo1';
 
 const MyPage = () => {

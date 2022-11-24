@@ -4,7 +4,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import restaurant from '../dummy/restaurant.json';
 import axios from 'axios';
 import MapApi from './MapApi';
-import "./Introduction.css";
+import "../css/Introduction.css";
 import HeaderMenu from './Header';
 //import MapApi2 from './MapApi2';
 

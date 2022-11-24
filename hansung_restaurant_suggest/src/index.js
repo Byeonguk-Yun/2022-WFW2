@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import './components/Header.css';
-import './components/Login.css'
 import App from './App';
 import HeaderMenu from './components/Header';
 import reportWebVitals from './reportWebVitals';

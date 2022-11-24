@@ -19,7 +19,7 @@ function App() {
   return(
     //<Login/>
     <Routes>
-    <Route path="/" element={<AutoSlider />} />
+    <Route path="/" element={<Login />} />
     <Route path="/login" element={<Login />} />
     <Route path="/mypage/:id/:pw" element={<MyPage />} />
     <Route path="/introduction/:restaurant" element={<Introduction />} />

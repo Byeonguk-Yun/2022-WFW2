@@ -741,9 +741,9 @@
             "rImg" : "/image/rImg/달콤한위로.png",
             "address" : "서울 성북구 창경궁로43길 24 1층",
             "menu" : {
-                "name" : ["프랑스도넛", "엘레강스(무스케익)", "크림브륄레", "뺑 오래"],
+                "name" : ["프랑스도넛", "엘레강스(무스케익)", "크림브뤨레", "뺑 오래"],
                 "price" : ["3800원", "8500원", "4500원", "3500원"],
-                "img" : ["/image/mImg/프랑스도넛.png", "/image/mImg/엘레강스(무스케익).png", "/image/mImg/크림브륄레.jpeg", "/image/mImg/뺑 오래.png"]
+                "img" : ["/image/mImg/프랑스도넛.png", "/image/mImg/엘레강스(무스케익).png", "/image/mImg/크림브뤨레.jpeg", "/image/mImg/뺑 오래.png"]
             },
             "openTime" : "10:00",
             "closeTime" : "21:00",

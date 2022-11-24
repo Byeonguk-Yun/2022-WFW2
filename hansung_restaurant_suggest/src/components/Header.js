@@ -1,5 +1,6 @@
 import React from 'react';
 import siteLogo from '../Logo1.JPG';
+import '../css/Header.css'
 
 const HeaderMenu = () => (
     <div className='HeaderBar'>

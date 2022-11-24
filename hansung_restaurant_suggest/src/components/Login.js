@@ -2,7 +2,7 @@ import React from 'react';
 import {useState, useEffect} from 'react';
 import { useNavigate, Link, Route, Routes} from "react-router-dom";
 import userList from "../dummy/user.json"
-import "./Login.css";
+import "../css/Login.css";
 
 const Login = () => {
   // 로그인 
