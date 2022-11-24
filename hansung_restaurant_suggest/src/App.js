@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import HeaderBar from './component/HeaderBar';
-import SideBar from './component/SideBar';
-import CategoryShow from './component/categorySection';
+import HeaderBar from './components/HeaderBar';
+import SideBar from './components/SideBar';
+import CategoryShow from './components/categorySection';
 
 const App = () => {
   const [ sidebar, setSidebar ] = useState(false);
