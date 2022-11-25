@@ -1,0 +1,21 @@
+.subway {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.subway-top {
+    /*position: fixed;*/
+
+    margin-top: 250px;
+    margin-left: 70px;
+}
+
+.subway-top div {
+    display: inline-block;
+}
+
+div > img {
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}

@@ -33,15 +33,18 @@ const AutoSlider = () => {
     return(
         <>
         <HeaderBar  openSidebar={toggleSidebar}/>
-        <SideBar sidebar={sidebar} closeSidebar={toggleSidebar} />
+        <SideBar sidebar={sidebar} closeSidebar={toggleSidebar} /> 
+       
 
         <div className="autoSlider">
             <Slider {...settings}>
                 {data.list.map( item => (
-                    <Link to={`/introduction/${item.rastaurant}`}>
+                   
                         <div className="menu">
                             <div className="menu-top">
+                                <Link to={`/introduction/${item.rastaurant}`}>
                                 <img src={process.env.PUBLIC_URL + `${item.rImg}`} alt={item.rastaurant}/>
+                                </Link>
                                 <h1>{item.rastaurant}</h1>
                             </div>
                             <div className="menu-bottom">
@@ -49,7 +52,7 @@ const AutoSlider = () => {
                                 <p className="category">카테고리: {item.category}</p>
                             </div>                        
                         </div>
-                    </Link>
+                    
                 ))}
             </Slider>
         </div>        
