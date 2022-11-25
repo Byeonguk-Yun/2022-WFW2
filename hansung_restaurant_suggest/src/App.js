@@ -1,18 +1,30 @@
-import React, { useState } from 'react';
-import HeaderBar from './components/HeaderBar';
-import SideBar from './components/SideBar';
-import CategoryShow from './components/categorySection';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Login from './components/Login'
+import MyPage from './components/MyPage'
+import Introduction from './components/introduction';
+import AutoSlider from './components/Slider';
+import CategoryMain from './components/CategoryMain';
+import { Korean, Chinese, Japanese, Western, Dessert } from './components/Categories';
 
 const App = () => {
-  const [ sidebar, setSidebar ] = useState(false);
-  const toggleSidebar = () => setSidebar(prevState => !prevState);
   
   return (
-    <div>
-      <HeaderBar openSidebar={toggleSidebar} />
-      <CategoryShow />
-      <SideBar sidebar={sidebar} closeSidebar={toggleSidebar} />
-    </div>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/mypage/:id/:pw" element={<MyPage />} />
+      <Route path="/introduction/:id/:restaurant" element={<Introduction />} />
+
+      <Route path="/autoslider" element={<AutoSlider />}/>
+
+      <Route path="/categories" element={<CategoryMain />} />
+      <Route path="/korean" element={<Korean />} />
+      <Route path="/chinese" element={<Chinese />} />
+      <Route path="/japanese" element={<Japanese />} />
+      <Route path="/western" element={<Western />} />
+      <Route path="/dessert" element={<Dessert />} />
+    </Routes>
   );
 }
 

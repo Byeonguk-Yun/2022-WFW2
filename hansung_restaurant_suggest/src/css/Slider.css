@@ -1,0 +1,59 @@
+.autoSlider {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.menu {
+    margin-top: 250px;
+    height: 400px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: black;
+    border-radius: 8px; /*모서리 둥근 정도*/
+    overflow: hidden;    
+}
+.menu-top h1 {
+    font-size: 1rem;
+    margin: 10px 20px;
+}
+
+.menu-top img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.menu-bottom {
+    margin: 10px 20px;
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+.slick-list {
+    margin: 0 -10px;
+}
+
+/*
+.slick-dots {
+    bottom: 20px;
+     button {
+        width: 10px;
+        height: 10px;
+        border: 2px solid $pt;
+        border-radius: 50%;
+        box-shadow:1px 1px 3px rgba($bk, 0.6);
+        &::before {
+            display: none;
+        }
+    }
+    .slick-active {
+        button {
+            background: $pt;
+        }
+    } 
+}
+*/
+
+.slick-dots {
+    bottom: -50px;
+}
