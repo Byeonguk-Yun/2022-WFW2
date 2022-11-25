@@ -1,0 +1,29 @@
+@import url('http://fonts.googleapis.com/earlyaccess/hanna.css');
+
+h2 {
+    font-family: 'Hanna';
+    font-size: 60px;
+}
+
+img {
+    height: 300px;
+    width: 100%;
+    margin-bottom: -20px;
+    border-radius: 8px;
+}
+
+p {
+    font-family: 'Hanna';
+    font-size:xx-large;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows: 30% 30%;
+}
+
+.item {
+    margin-left: 10%;
+    margin-right: 10%;
+}

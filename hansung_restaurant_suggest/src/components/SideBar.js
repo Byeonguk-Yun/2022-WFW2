@@ -11,6 +11,7 @@ const SideBar = ({sidebar, closeSidebar}) => {
             <Link to="/chinese" style={{ color: '#ffffff' }}><li>중식</li></Link>
             <Link to="/japanese" style={{ color: '#ffffff' }}><li>일식</li></Link>
             <Link to="/western" style={{ color: '#ffffff' }}><li>양식</li></Link>
+            <Link to="/snack" style={{ color: '#ffffff' }}><li>분식</li></Link>
             <Link to="/dessert" style={{ color: '#ffffff' }}><li>카페 / 디저트</li></Link>
         </div>
     )

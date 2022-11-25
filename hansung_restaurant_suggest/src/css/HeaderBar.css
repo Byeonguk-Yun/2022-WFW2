@@ -5,7 +5,7 @@
     position: fixed;
     color: #00A4F9;
     background-color: white;
-    height: 2.5cm;
+    height: 2.9cm;
     width: 100%;
 }
 
@@ -13,8 +13,8 @@
     margin-top: -20px;
     margin-left: -20px;
     margin-right: 130px;
-    height: 130px;
-    width: 220px;
+    height: 110px;
+    width: 200px;
 }
 
 ul {
@@ -45,7 +45,7 @@ li:last-child {
 }
 
 .station {
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
     font-size: 30px;
     font-family: 'Hanna';

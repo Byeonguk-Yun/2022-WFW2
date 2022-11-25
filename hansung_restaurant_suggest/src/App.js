@@ -5,7 +5,7 @@ import MyPage from './components/MyPage'
 import Introduction from './components/introduction';
 import AutoSlider from './components/Slider';
 import CategoryMain from './components/CategoryMain';
-import { Korean, Chinese, Japanese, Western, Dessert } from './components/Categories';
+import { Korean, Chinese, Japanese, Western, Snack, Dessert } from './components/Categories';
 
 const App = () => {
   
@@ -23,6 +23,7 @@ const App = () => {
       <Route path="/chinese" element={<Chinese />} />
       <Route path="/japanese" element={<Japanese />} />
       <Route path="/western" element={<Western />} />
+      <Route path="/snack" element={<Snack />} />
       <Route path="/dessert" element={<Dessert />} />
     </Routes>
   );
