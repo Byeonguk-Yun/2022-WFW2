@@ -6,21 +6,6 @@ import '../css/MyPage.css';
 import SimpleInfo1 from './SimpleInfo1';
 
 const MyPage = () => {
-    //const [recent, setRecent] = useState([]);
-
-    /*
-    useEffect (() => {
-        userList.user.map(u => {
-            if(u.id === id){
-                return new Promise((resolve, reject) =>{
-                    
-                    
-                    
-                })
-            }
-        })
-    })
-    */
     
     const path = useLocation().pathname;
     const index = path.split('/');
@@ -34,6 +19,7 @@ const MyPage = () => {
     var like = null;
     var img = null;
     var r = null;
+    var recent = null;
 
     const likes = userList.user.map((u) => {
         if(u.id === id && u.pw === pw)
@@ -41,13 +27,13 @@ const MyPage = () => {
         // 오류
     })
 
-    /*
+    
     const recents = userList.user.map((u) => {
         if(u.id === id && u.pw === pw)
-            //return setRecent(...u.recent);
+            return recent = JSON.stringify(u.recents);
         // 오류
     })
-    */
+    
 
     const profile = userList.user.find((u) => {
         if(u.id === id && u.pw === pw)
@@ -61,7 +47,7 @@ const MyPage = () => {
 
     console.log("Like : " + like);
     console.log("프로필 : " + img);
-    //console.log("recent : " + recent);
+    console.log("recent : " + recent);
 
     return(
         <>

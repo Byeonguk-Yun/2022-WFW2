@@ -7,6 +7,7 @@ import axios from 'axios';
 import MapApi from './MapApi';
 import "../css/Introduction.css";
 import HeaderMenu from './Header';
+import SimpleInfo2 from './SimpleInfo2';
 //import MapApi2 from './MapApi2';
 
 
@@ -79,8 +80,12 @@ const Introduction = () => {
                 <p>주소  {address}</p>
                 
                 <MapApi />
+                <SimpleInfo2 name={about.menu.name[0]} price={about.menu.price[0]} img={about.menu.img[0]}></SimpleInfo2>
+                <SimpleInfo2 name={about.menu.name[1]} price={about.menu.price[1]} img={about.menu.img[1]}></SimpleInfo2>
+                <SimpleInfo2 name={about.menu.name[2]} price={about.menu.price[2]} img={about.menu.img[2]}></SimpleInfo2>
+                <SimpleInfo2 name={about.menu.name[3]} price={about.menu.price[3]} img={about.menu.img[3]}></SimpleInfo2>
                 <p>메뉴</p>
-                <p>{about.menu.price.join(", ")}</p>
+                <p>{about.menu.name.join(", ")}</p>
                 <p>{about.menu.price.join(", ")}</p>
                 <p>
                     <img src={process.env.PUBLIC_URL+about.menu.img[0]}></img>
