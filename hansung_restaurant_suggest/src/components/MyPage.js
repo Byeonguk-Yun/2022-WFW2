@@ -6,8 +6,9 @@ import '../css/MyPage.css';
 import SimpleInfo1 from './SimpleInfo1';
 
 const MyPage = () => {
-    const [recent, setRecent] = useState([]);
+    //const [recent, setRecent] = useState([]);
 
+    /*
     useEffect (() => {
         userList.user.map(u => {
             if(u.id === id){
@@ -19,6 +20,7 @@ const MyPage = () => {
             }
         })
     })
+    */
     
     const path = useLocation().pathname;
     const index = path.split('/');
@@ -39,11 +41,13 @@ const MyPage = () => {
         // 오류
     })
 
+    /*
     const recents = userList.user.map((u) => {
         if(u.id === id && u.pw === pw)
-            return setRecent(...u.recent);
+            //return setRecent(...u.recent);
         // 오류
     })
+    */
 
     const profile = userList.user.find((u) => {
         if(u.id === id && u.pw === pw)
@@ -57,7 +61,7 @@ const MyPage = () => {
 
     console.log("Like : " + like);
     console.log("프로필 : " + img);
-    console.log("recent : " + recent);
+    //console.log("recent : " + recent);
 
     return(
         <>
@@ -82,10 +86,7 @@ const MyPage = () => {
             <div class="likeRes" style={{backgroundColor:"deepskyblue"}}>
                 <p style={{marginLeft:"15px", fontWeight:"bold"}}>최근 본 식당 List</p>
                 <div style={{display:"inline-block", boxSizing: "border-box", margin:"10px"}}>
-                    <script>
-                        if(recent!=null)
-                            <SimpleInfo1 id = {id} restaurant={recent[0]}></SimpleInfo1>
-                    </script>
+                    
                 </div>
                 
             </div>
