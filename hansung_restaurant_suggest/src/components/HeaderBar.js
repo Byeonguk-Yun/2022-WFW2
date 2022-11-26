@@ -18,7 +18,7 @@ const HeaderBar = ({openSidebar}) => {
                 <li className='station'>성신여대입구</li>
                 <li className='station'>한성대입구</li>
                 <li className='station'>혜화</li>
-            </ul>
+            </ul> 
         </div>
     )
 }

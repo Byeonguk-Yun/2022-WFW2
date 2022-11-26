@@ -1,12 +1,12 @@
 .subway {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
+    /* margin-top: 200px; */
 }
 
 .subway-top {
-    /*position: fixed;*/
-
-    margin-top: 250px;
+    /* position: fixed; */
+    padding: 200px 150px 50px 150px;
     margin-left: 70px;
 }
 

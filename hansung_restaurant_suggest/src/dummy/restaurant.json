@@ -74,12 +74,12 @@
         },
         {
             "rastaurant" : "혜화도담",
-            "rImg" : "/image/rImg/혜화도담.jpeg",
+            "rImg" : "/image/rImg/혜화도담.jp담g",
             "address" : "서울 종로구 대명1길 16-6 혜화도담",
             "menu" : {
-                "name" : ["김치찜", "돼지갈비찜", "대파전", "낚지볶음"],
+                "name" : ["김치찜", "돼지갈비찜", "대파전", "낙지볶음"],
                 "price" : ["20000원", "28000원", "13000원", "27000원"],
-                "img" : ["/image/mImg/김치찜.png", "/image/mImg/돼지갈비찜.jpg", "/image/mImg/대파전.png", "/image/mImg/낚지볶음.png"]
+                "img" : ["/image/mImg/김치찜.png", "/image/mImg/돼지갈비찜.jpg", "/image/mImg/대파전.png", "/image/mImg/낙지볶음.png"]
             },
             "openTime" : "11:30",
             "closeTime" : "22:00",
@@ -202,7 +202,7 @@
             "menu" : {
                 "name" : ["마라탕(100g)", "마라향궈(100g)", "마라반(100g)", "꿔바로우"],
                 "price" : ["1700원", "3000원", "2000원", "15000원"],
-                "img" : ["/image/mImg/마라탕(100g).jpeg", "/image/mImg/마라향궈(100g).jpeg", "/image/mImg/마라반(100g).png", "/image/mImg/꿔바로우.jpeg"]
+                "img" : ["/image/mImg/마라탕(100g).jpeg", "/image/mImg/마라향궈(100g).jpeg", "/image/mImg/마라반불.png", "/image/mImg/꿔바로우.jpeg"]
             },
             "openTime" : "11:30",
             "closeTime" : "21:30",
@@ -517,7 +517,7 @@
         },
         {
             "rastaurant" : "토끼정 대학로점",
-            "rImg" : "/image/rImg/토끼정 대학로점.jpeg",
+            "rImg" : "/image/rImg/토끼정.jpeg",
             "address" : "서울 종로구 대학로8가길 133",
             "menu" : {
                 "name" : ["파스타 토끼밥상", "반반구이 토끼밥상", "토끼정 크림 카레 우동", "토끼정 카레"],
@@ -817,7 +817,7 @@
             "menu" : {
                 "name" : ["썸머라떼", "바나나푸딩", "휘낭시에", "패션프로츠우유"],
                 "price" : ["6000원", "5000원", "변동", "6000원"],
-                "img" : ["/image/mImg/썸머라떼.jpeg", "/image/mImg/바나나푸딩.jpeg", "/image/mImg/휘낭시에.png", "/image/mImg/패션프로츠우유.png"]
+                "img" : ["/image/mImg/썸머라떼.jpeg", "/image/mImg/바나나푸딩.jpeg", "/image/mImg/휘낭시에.png", "/image/mImg/패션프루츠우유.png"]
             },
             "openTime" : "12:00",
             "closeTime" : "21:00",
@@ -865,7 +865,7 @@
             "menu" : {
                 "name" : ["코코넛커피스무디", "초코칩 코코넛 스무디", "코코넛 딸기 스무디", "코코넛 녹차스무디"],
                 "price" : ["4000원", "4300원", "4300원", "4300원"],
-                "img" : ["/image/mImg/코코넛커피스무디.png", "/image/mImg/초코칩 코코넛 스무디.png", "/image/mImg/코코넛 딸기 스무디.png", "/image/mImg/코코넛 녹차스무디.png"]
+                "img" : ["/image/mImg/코코넛 커피 스무디.png", "/image/mImg/초코칩 코코넛 스무디.png", "/image/mImg/코코넛 딸기 스무디.png", "/image/mImg/코코넛 녹차 스무디.png"]
             },
             "openTime" : "10:30",
             "closeTime" : "19:00",

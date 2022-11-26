@@ -8,7 +8,6 @@ import AutoSlider from './components/Slider';
 import CategoryMain from './components/CategoryMain';
 import { Korean, Chinese, Japanese, Western, Dessert } from './components/Categories';
 import Subway from './components/Subway';
-import Test from './components/Test';
 import FamousrtrList from './components/FamousrtrList';
 
 const App = () => {
@@ -20,18 +19,9 @@ const App = () => {
       <Route path="/mypage/:id/:pw" element={<MyPage />} />
       <Route path="/introduction/:id/:restaurant" element={<Introduction />} />
 
-      <Route path="/introduction/:restaurant" element={<Introduction />} />
-
-      {/* 
-      <Route path="/subway/*" element={<Subway />}>
-        <Route path='/autoslider' element={<AutoSlider />}/>
-      </Route> 
-      */}
-
       <Route path='/slider' element={<AutoSlider />}/>
       <Route path='/subway' element={<Subway />}/>
-      <Route path='/famous' element={<FamousrtrList />}/> 
-      <Route path='/test' element={<Test />}/>
+      <Route path='/famous' element={<FamousrtrList />}/>
 
       <Route path="/categories" element={<CategoryMain />} />
       <Route path="/korean" element={<Korean />} />

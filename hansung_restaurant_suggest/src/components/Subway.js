@@ -1,11 +1,17 @@
-import React from 'react';
-import {useState, useEffect} from 'react';
-import { useLocation, Outlet} from 'react-router-dom';
+import React, {useState} from 'react';
 
 import SubwaySlider from './SubwaySlider';
+import HeaderBar from "./HeaderBar";
+import SideBar from "./SideBar";
+
 import '../css/Subway.css';
+import '../css/SideBar.css';
+import '../css/HeaderBar.css';
 
 const Subway = () => {
+    const [ sidebar, setSidebar ] = useState(false);
+    const toggleSidebar = () => setSidebar(prevState => !prevState);
+
     const haehwa = `${process.env.PUBLIC_URL + `/image/haehwaSubway.png`}`;
     const hansung = `${process.env.PUBLIC_URL + `/image/hansungSubway.png`}`;
     const sungsin = `${process.env.PUBLIC_URL + `/image/sungsinSubway.png`}`;
@@ -37,20 +43,24 @@ const Subway = () => {
     //useEffect = (() => console.log(`${subwayList[currentList]}`), [currentList]);
 
 
-    // let location = useLocation();
-    // console.log(location.pathname);
-    
-
     return (
         <>
+        <HeaderBar openSidebar={toggleSidebar}/>
+        <SideBar sidebar={sidebar} closeSidebar={toggleSidebar} />  
+
+        <div>
         <div className='subway'>
-            <div className='subway-top'>
-                <div className='prev'><img src={prevBtn} onClick={prev}/></div>
-                <div className='content'><img src={slideImgList[currentList]}/></div>
-                <div className='next'><img src={nextBtn} onClick={next}/></div>
+                <div className='subway-top'>
+                    <div className='prev'><img src={prevBtn} onClick={prev}/></div>
+                    <div className='content'><img src={slideImgList[currentList]}/></div>
+                    <div className='next'><img src={nextBtn} onClick={next}/></div>
+                </div>
             </div>
+
+            <SubwaySlider props={subwayList[currentList]} />
+
+
         </div>
-        <SubwaySlider props={subwayList[currentList]} />
        </>
     );
 }
