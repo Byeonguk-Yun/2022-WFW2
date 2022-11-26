@@ -15,29 +15,29 @@ export const Korean = () => {
             <center><h2>한식</h2></center>
             <div className='list'>
                 <div className='item'>
-                    <img src="../../public/img/rImg/홍추곱창카페.jpeg" alt="이미지 준비중" size="100%"></img>
+                    <img src="../img/rImg/홍추곱창카페.jpeg" alt="이미지 준비중" size="100%"></img>
                     <center><p>홍추곱창카페</p></center>
                 </div>
                 <div className='item'>
-                    <img src="../../public/image/rImg/밥짓고티우림.jpeg" alt="이미지 준비중"></img>
+                    <img src="../img/rImg/밥짓고티우림.jpeg" alt="이미지 준비중"></img>
                     <center><p>밥짓고티우림</p></center>
                 </div>
                 <div className='item'>
-                    <img src="../../public/image/rImg/오이지 대학로.jpeg" alt="이미지 준비중"></img>
+                    <img src="../img/rImg/오이지 대학로.jpeg" alt="이미지 준비중"></img>
                     <center><p>오이지 대학로</p></center>
                 </div>
                 <div className='item'>
-                    <img src="../../public/image/rImg/혜화도담.jpg" alt="이미지 준비중"></img>
+                    <img src="../img/rImg/혜화도담.jpg" alt="이미지 준비중"></img>
                     <center><p>혜화도담</p></center>
                 </div>
             </div>
             <div className='list'>
                 <div className='item'>
-                    <img src="../../public/image/rImg/태조감자국.jpeg" alt="이미지 준비중"></img>
+                    <img src="../img/rImg/태조감자국.jpeg" alt="이미지 준비중"></img>
                     <center><p>태조감자국</p></center>
                 </div>
                 <div className='item'>
-                    <img src="../../public/image/rImg/팔백집.png" alt="이미지 준비중"></img>
+                    <img src="../img/rImg/팔백집.png" alt="이미지 준비중"></img>
                     <center><p>팔백집</p></center>
                 </div>
             </div>
