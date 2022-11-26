@@ -14,7 +14,7 @@ const Subway = () => {
 
     const slideImgList = [haehwa, hansung, sungsin];
     const slideImgLength = slideImgList.length-1;
-    const subwayList = ["혜화", "한성대", "성신"];
+    const subwayList = ["혜화", "한성대", "성신여대"];
 
     const [currentList, setCurrentList] = useState(1);
 
@@ -34,7 +34,7 @@ const Subway = () => {
             setCurrentList(currentList+1);
         }
     }
-    useEffect = (() => console.log(`${subwayList[currentList]}`), [currentList]);
+    //useEffect = (() => console.log(`${subwayList[currentList]}`), [currentList]);
 
 
     // let location = useLocation();
@@ -50,9 +50,7 @@ const Subway = () => {
                 <div className='next'><img src={nextBtn} onClick={next}/></div>
             </div>
         </div>
-        <div>
-            <h1>Here is SubwaySlider.js components position</h1>
-        </div>
+        <SubwaySlider props={subwayList[currentList]} />
        </>
     );
 }

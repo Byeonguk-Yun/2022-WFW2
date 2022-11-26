@@ -46,11 +46,10 @@ const SubwaySlider = ({props}) => {
         */}
 
         <div className="autoSlider">
-        <Subway />
             <Slider {...settings}>
                 {subwayList.map( item => (
 
-                        <div className="menu">
+                        <div className="subwayslider-menu">
                             <div className="menu-top">
                                 <Link to={`/introduction/${item.rastaurant}`}>
                                 <img src={process.env.PUBLIC_URL + `${item.rImg}`} alt={item.rastaurant}/>

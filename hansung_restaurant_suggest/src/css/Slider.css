@@ -2,6 +2,15 @@
     width: 60%;
     margin: 0 auto;
 }
+.subwayslider-menu {
+    margin-top: 50px;
+    height: 400px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: black;
+    border-radius: 8px; /*모서리 둥근 정도*/
+    overflow: hidden;    
+}
 
 .menu {
     margin-top: 250px;
