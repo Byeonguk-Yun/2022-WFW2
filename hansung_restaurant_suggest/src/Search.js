@@ -42,7 +42,7 @@ class App extends Component {
       if(this.state.search == null)
         return data
       
-      else if (data.rlmg.toLowerCase().includes(this.state.search.toLowerCase()) || data.img.toLowerCase().includes(this.state.search.toLowerCase()))
+      else if (data.restaurant.toLowerCase().includes(this.state.search.toLowerCase()) || data.menu.toLowerCase().includes(this.state.search.toLowerCase()))
         return data
     }
   ).map(data => {
@@ -50,8 +50,8 @@ class App extends Component {
       <div>
         <ul>
           <li style={{position:'relative', left : '10vh'}}>
-            <span style = {styleInfo}>{data.rlmg}</span>
-            <span style = {styleInfo}>{data.mlmg}</span>
+            <span style = {styleInfo}>{data.restaurant}</span>
+            <span style = {styleInfo}>{data.menu}</span>
           </li>
         </ul>
       </div>
